@@ -16,7 +16,7 @@ def cadastrar():
 # Lista
 def listar():
     if not usuarios:
-        print("Lista vazia.")
+        print("Lista vazia..")
         return
 
     for i, usuario in enumerate(usuarios):
