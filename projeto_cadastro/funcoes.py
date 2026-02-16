@@ -19,6 +19,12 @@ def salvar_dados(usuarios):
     with open(ARQUIVO, "w") as arquivo:
         json.dump(usuarios, arquivo, indent=4)
 
+############## LINHA ##############
+
+def linha():
+    print('=' * 30)
+   
+
 ############## CADASTRO ##############
 
 def cadastrar(usuarios):

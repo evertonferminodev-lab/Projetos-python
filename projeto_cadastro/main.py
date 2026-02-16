@@ -3,6 +3,9 @@ from funcoes import *
 usuarios = carregar_dados()
 
 while True:
+
+    linha()
+
     print("""
 1 - Cadastrar
 2 - Listar
@@ -10,6 +13,8 @@ while True:
 4 - Remover
 5 - Sair
 """)
+    
+    linha()
 
     opcao = input("Escolha: ")
 
